@@ -5,7 +5,33 @@
     <link rel="stylesheet" href="gwacalculator.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="introductions-disclaimers">
+            <h1> GWA Calculator</h1>
+            <h3 id="introSentence"> This is a general weigtened average calculator was formulized aligned with STI College's grading system based in the 20-20-20-40 calculations, if you wish to use this and you are not a STIer. Feel free to exit the calculator</h3>
+        </div>
+
+        <div class="calculator-area">
+            <form id="form-calc-area">
+                <div class="input-area">
+                    <input type="text" id="prelimGrade" placeholder="Prelim"> <br/>
+                    <input type="text" id="midtermGrade" placeholder="Midterm"> <br/>
+                    <input type="text" id="prefirade" placeholder="Pre-Finals"> <br/>
+                    <input type="text" id="finalsGrade" placeholder="Finals"> <br/>
+                </div>
+
+                <div class="button-area">
+                    <button type="button" id="CalculateGWA">Calculate</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+
+            <div class="final-verdict-area">
+                <h3>Average: <span id="finalGwa"> </span></h3>
+                <h3>Remarks: <span id="remarks"> </span></h3>
+            </div>
+        </div>
+    </div>
 </body>
     <script src="gwacalculator.js"></script>
 </html>

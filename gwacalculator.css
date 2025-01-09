@@ -1,0 +1,95 @@
+html{
+    background-image: url(orcaSTI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    position: absolute;
+    background-color: #1F509A;
+    filter: drop-shadow(2px 5px 10px black);
+    width: 530px;
+    height: 590px;
+    left: 480px;
+    text-align: center;
+    top: 50px;
+}
+
+h1 {
+    background-color: #FFC145;
+    margin-top: 0PX;
+    padding: 10PX;
+    color: black;
+}
+
+#introSentence{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 1;
+}
+
+#prelimGrade{
+    width: 460px;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: white;
+    font-size: 14px;
+}
+
+#midtermGrade{
+    width: 460px;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: white;
+    font-size: 14px;
+}
+
+#prefirade{
+    width: 460px;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: white;
+    font-size: 14px;
+}
+
+#finalsGrade{
+    width: 460px;
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: white;
+    font-size: 14px;
+}
+
+.button-area{
+    position: absolute;
+    left: 35px;
+}
+
+button{
+    width: 90px;
+    height: 25px;
+    background-color: #FFC145;
+    border: #FFC145;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #b0842c;
+}
+
+#CalculateGWA{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.final-verdict-area{
+    position: absolute;
+    top: 370px;
+    left: 40px;
+}
