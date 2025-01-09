@@ -48,7 +48,7 @@ h1 {
     font-size: 14px;
 }
 
-#prefirade{
+#prefiGrade{
     width: 460px;
     height: 25px;
     margin-bottom: 15px;
@@ -92,4 +92,5 @@ button:hover{
     position: absolute;
     top: 370px;
     left: 40px;
+    
 }
